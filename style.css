@@ -1,0 +1,129 @@
+.logo {
+	width: 100px;
+    height: 65px;
+}
+.topName {
+	font-size: 45px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-align: center;
+}
+.head-social {
+	display: flex;
+	justify-content: end;
+	margin-top: 10px;
+}
+.social {
+	font-size: 26px;
+	/* margin-right: 20px; */
+	color: #ccc;
+}
+.left-section h2 {
+	font-size: 60px;
+    margin: 40px 0;
+}
+.left-section h3 {
+	font-weight: 800;
+}
+.left-section em {
+	color: #625bb0;
+}
+.right-section img{
+    margin: 40px 0;
+}
+.intro {
+	background: #5aa9ba;
+	color: #fff;
+}
+.about {
+	background: #cecece;
+}
+.about-section {
+	padding: 40px 0;
+}
+.Title {
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #625bb0;
+    text-align: center;
+}
+.profile {
+	width: 500px;
+	aspect-ratio: 0.77;
+}
+.education-section h2 {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+	padding-top: 40px;
+}
+.live-section h2 {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+	padding: 40px 0;
+}
+.live {
+	margin: 20px 0;
+}
+.multiple-items {
+	padding-bottom: 50px;
+}
+footer {
+	background: #625bb0;
+	color: #fff;
+	padding: 20px 0;
+	margin-top: 40px;
+}
+footer p {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin: 0;
+}
+footer p a {
+	text-transform: lowercase;
+	text-decoration: none;
+}
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+  
+  
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+	.head-social {
+		display: flex;
+		justify-content: center;
+		margin-top: 10px;
+	}
+	.navbar-brand {
+		display: flex;
+		justify-content: center;
+	}
+	.intro {
+		text-align: center;
+	}
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
